@@ -76,6 +76,12 @@ body,html{
     padding: 0.7rem;
 }
 
+/* to remove box from img2 & img3 */
 .ptext .trans{
     background-color: transparent;
 }
+
+@media(min-width: 500px){
+    .pimg1, .pimg2, .pimg3{
+    background-attachment: scroll;
+}}
